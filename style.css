@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+    background-color: rebeccapurple;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: whitesmoke;
+    font-weight: 100;
+    font-size: 2rem;
+    border:3px solid grey;
+}
+
+form {
+    text-align: center;
+    padding:2rem;
+}
+body {
+background-color: #DEDFF0;
+}
+
+li {text-align: left;}
+

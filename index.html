@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp"> 
+<head>
+    <meta charset="UTF-8">
+    <title>Multiview List</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.js"></script>
+     <script src="http://gregpike.net/demos/angular-local-storage/src/angular-local-storage.js"></script>
+ <script src="http://gregpike.net/demos/angular-local-storage/src/common.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body ng-controller="MainController">
+    <div id="main">
+        
+    <h1><strong>Multiview List</strong></h1>
+        
+    <ul class="nav nav-pills">
+       	<li>
+          	<a href="#/first">First List</a >
+       	</li>
+       	<li >
+          	<a href="#/second">Second List</a>
+       	</li>
+       	<li >
+          	<a href="#/third">Third List</a>
+       	</li>
+      </ul>
+        
+        <div ng-view></div>
+    </div>
+    
+    
+    
+    
+</body>
+</html>

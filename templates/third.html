@@ -1,0 +1,11 @@
+<ul class="list-group">
+     <form ng-submit="submit()" >
+  Enter a new item and click Submit
+  <input type="text" ng-model="text" name="text" />
+  <input type="submit" id="submit" value="Submit" />
+    </form>
+        <li ng-repeat="todo in todos" class="list-group-item" >
+            {{todo}} 
+            <button type="button" ng-click="remove($index)" class="label label-success">Remove</button>
+         </li>
+      </ul>
